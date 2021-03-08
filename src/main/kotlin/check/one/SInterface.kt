@@ -1,6 +1,6 @@
 package check.one
 
-interface SInterface {
+sealed interface SInterface {
 }
 
 class SInterfaceImplOne : SInterface
